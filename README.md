@@ -1,1 +1,11 @@
-# IOT_DEVICE
+INEXPENSIVE IOT DEVICE FOR MAINSTREAM INDUSTRIES AND RESIDENTIAL COMPLEXES
+ADVANCE PROJECT NOT FOR BEGINNERS
+
+The Internet of Things (IoT) has improved the quality of our life through various gadgets and interconnected devices. Despite having great potential, this system still has not made into the mainstream industries or residential complexes due to high cost associated with commercial IoT solutions. In-expensive and open-source IoT based systems could be employed in these fields to improve the overall safety and drastically reduce accidents. Furthermore, these types of systems can also improve the general performance and reduce long term maintenance costs. IoT based systems can communicate with several types of sensors and provide real-time information about the current consumption in the plant, temperature spikes or detect of any type of gas leakage. Moreover, in case of accidents, the system could be programmed to call the emergency services or other authorities immediately for a faster response. For this purpose, Atmega1284P and ESP32 microcontroller based IoT device was developed and implemented. For IoT integration and cloud operation, Google Firebase IoT platform was chosen for its simplicity and ease of use. To monitor the system using both Bluetooth and Wi-Fi, an Android app was created with MIT App Inventor 2. This device is capable of receiving and handling multiple thermocouples, RTD, pH, gas detector, microwave radar motion sensor or any type of analog or digital sensor. Moreover, this device can also send an automated email whenever a threshold value for the sensor is exceeded. All of the parameters can be modified via Bluetooth commands without needing to program the device every time. This type of system could be easily scaled to suit the needs of various industries and complexes and improve the overall safety and reliability.
+
+
+Both of the microcontrollers were programmed using the Arduino Integrated Development Environment (IDE). Various libraries were used in the Arduino code particularly IOXhop_FirebaseESP32 which was used to communicate ESP32 with Firebase. For reading thermocouple, RTD and ADS1115, libraries from Adafruit were used. Moreover, SPI, Wire, Liquid Crystal, Software Serial, EEPROMAnything, TinyGPS++ by Mikal Hart, Wifi Manager by Zhouhan and IRremote library by Ken Shirriff were used. The mobile app interface was developed using MIT App Inventor.
+
+
+
+FOR MORE DETAILS PLEASE CHECK THE PAPER: LINK WILL BE UPDATED ONCE THE PAPER IS PUBLISHED.
